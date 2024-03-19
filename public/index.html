@@ -32,7 +32,10 @@
     <script src="index.js" defer></script>
   
   </head>
-    <body onload="openURL('https://pinterest.com/')">
+  <body>
+    <script>
+       object.onload = function(){openURL('https://pinterest.com')};
+     </script>
     <div class="desc left-margin">
       <p id="uv-error"></p>
       <pre id="uv-error-code"></pre>
